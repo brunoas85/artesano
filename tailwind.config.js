@@ -8,7 +8,7 @@ export default {
           white: "#FFFFFF",
           celeste: "#0074C2",
           azul: "#273EA3",
-          naranja: "#F7941D",
+          naranja: "#FB9E32",
         },
       },
     },

@@ -1,17 +1,14 @@
-import Header from "./components/Header.tsx";
-import Hero from "./components/Hero.tsx";
-import Products from "./components/Products.tsx";
-import Contact from "./components/Contact.tsx";
-import Footer from "./components/Footer.tsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landing from "./pages/Landing.tsx";
+import Home from "./pages/Home.tsx";
 
 export default function App() {
   return (
-    <div className="font-sans">
-      <Header />
-      <Hero />
-      <Products />
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
