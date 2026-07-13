@@ -15,15 +15,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-artesano-azul shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex flex-wrap justify-between items-center gap-y-2">
-        <a href="#" className="flex items-center gap-3 shrink-0">
-          <div className="h-[106px] w-[106px] bg-artesano-white rounded-md flex items-center justify-center shrink-0">
+        <a href="#" className="flex items-center gap-2 sm:gap-3 shrink-0">
+          <div className="h-14 w-14 sm:h-20 sm:w-20 lg:h-[106px] lg:w-[106px] bg-artesano-white rounded-md flex items-center justify-center shrink-0">
             <img src="/logo-square.png" alt="ArteSano" className="h-full w-full object-contain p-1" />
           </div>
           <div className="flex flex-col leading-tight">
-            <span className="text-3xl font-extrabold text-artesano-naranja tracking-wide">
+            <span className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-artesano-naranja tracking-wide">
               ArteSano
             </span>
-            <span className="text-sm font-normal text-artesano-naranja tracking-wide">
+            <span className="text-xs sm:text-sm font-normal text-artesano-naranja tracking-wide">
               San Martín de los Andes
             </span>
           </div>

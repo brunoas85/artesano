@@ -1,10 +1,11 @@
 export default function Footer() {
+    const year = new Date().getFullYear();
+
     return (
       <footer className="bg-artesano-naranja text-center py-4 mt-0">
         <p className="text-artesano-celeste text-sm">
-          © 2025 ArteSano Gluten Free · Todos los derechos reservados - bRuno´s
+          © {year} ArteSano Gluten Free · Todos los derechos reservados · Desarrollado por bRuno´s
         </p>
       </footer>
     );
   }
-  
