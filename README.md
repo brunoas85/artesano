@@ -1,6 +1,27 @@
-# React + TypeScript + Vite
+# ArteSano
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page de ArteSano, panadería artesanal libre de gluten. Construida con React + TypeScript + Vite y estilizada con Tailwind CSS.
+
+## Desarrollo
+
+```bash
+npm install     # instalar dependencias
+npm run dev     # levantar el servidor de desarrollo con HMR
+```
+
+Por defecto el sitio queda disponible en `http://localhost:5173`.
+
+Otros comandos disponibles:
+
+```bash
+npm run build     # type-check y build de producción a dist/
+npm run lint      # correr ESLint sobre todo el proyecto
+npm run preview   # servir el build de producción localmente
+```
+
+## Sobre este template
+
+Este proyecto arrancó a partir de la plantilla mínima de React + Vite con HMR y algunas reglas de ESLint.
 
 Currently, two official plugins are available:
 
