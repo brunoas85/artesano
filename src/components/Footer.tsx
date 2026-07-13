@@ -4,7 +4,7 @@ export default function Footer() {
     return (
       <footer className="bg-artesano-naranja text-center py-4 mt-0">
         <p className="text-artesano-celeste text-sm">
-          © {year} ArteSano Gluten Free · Todos los derechos reservados · Desarrollado por bRuno´s
+          © {year} ArteSano Gluten Free · Desarrollado por bRuno´s
         </p>
       </footer>
     );
