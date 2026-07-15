@@ -39,6 +39,22 @@ const productos = [
       "Llevate nuestra premezcla y horneá tus propias recetas sin gluten en casa.",
     imagen: "/premezcla.png",
   },
+  {
+    id: 6,
+    nombre: "Empanadas",
+    categoria: "Salados",
+    descripcion:
+      "Empanadas artesanales de relleno jugoso, horneadas y 100% libres de gluten.",
+    imagen: "/empanadas.png",
+  },
+  {
+    id: 7,
+    nombre: "Facturas",
+    categoria: "Dulces",
+    descripcion:
+      "Facturas tiernas y recién horneadas, ideales para el desayuno o la merienda.",
+    imagen: "/facturas.png",
+  },
 ];
 
 export default function Products() {

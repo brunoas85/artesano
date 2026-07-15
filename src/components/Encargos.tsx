@@ -15,6 +15,30 @@ export default function Encargos() {
           ¿Cumpleaños, eventos o pedidos grandes? Armamos tu pedido a medida,
           siempre artesanal y libre de gluten.
         </p>
+
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <img
+              src="/empanadas.png"
+              alt="Empanadas"
+              className="w-full h-40 object-cover"
+            />
+            <p className="bg-artesano-white text-artesano-azul font-bold py-2">
+              Empanadas
+            </p>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <img
+              src="/facturas.png"
+              alt="Facturas"
+              className="w-full h-40 object-cover"
+            />
+            <p className="bg-artesano-white text-artesano-azul font-bold py-2">
+              Facturas
+            </p>
+          </div>
+        </div>
+
         <a
           href="https://wa.me/5491112345678"
           target="_blank"
